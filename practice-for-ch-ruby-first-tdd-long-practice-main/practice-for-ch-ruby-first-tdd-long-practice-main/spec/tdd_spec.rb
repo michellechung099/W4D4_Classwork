@@ -76,4 +76,3 @@ describe Array do
   end
 end
 
-minor change
