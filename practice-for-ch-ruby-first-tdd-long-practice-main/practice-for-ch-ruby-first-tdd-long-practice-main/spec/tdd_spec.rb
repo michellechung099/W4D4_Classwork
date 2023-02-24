@@ -19,11 +19,11 @@ describe Array do
     end
   end
 
-  describe "two_sum" do
+  describe "#two_sum" do
     subject (:array) {[-1, 0, 2, -2, 1]}
-      
-    context "it returns of positions of pairs of elements that sum to zero" do 
-      it "finds multiple pairs" do 
+
+    context "it returns of positions of pairs of elements that sum to zero" do
+      it "finds multiple pairs" do
         expect(two_sum(array)).to eq([[0, 4], [2, 3]])
       end
 
@@ -33,7 +33,7 @@ describe Array do
 
       it "returns empty array when there is no pair" do
         expect(two_sum([3,4])).to eq ([])
-      end  
+      end
     end
 
     context "it sorts the pairs with the smaller index before the bigger index" do
@@ -42,6 +42,4 @@ describe Array do
       end
     end
   end
-end
-
 
