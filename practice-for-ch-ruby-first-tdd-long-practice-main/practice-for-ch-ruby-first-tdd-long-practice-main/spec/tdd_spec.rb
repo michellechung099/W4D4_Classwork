@@ -73,6 +73,7 @@ describe Array do
         expect(stock_picker([1,1,1,1])).to eq([])
       end
     end
-  end 
+  end
 end
 
+minor change
