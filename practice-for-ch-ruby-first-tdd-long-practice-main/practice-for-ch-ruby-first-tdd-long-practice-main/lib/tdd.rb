@@ -38,7 +38,53 @@ def stock_picker(prices)
   # !days.all? { |profit, day| day.length == 1 }
 end
 
-
 p stock_picker([1,1,1,1])
 p stock_picker([10,9,8,7])
 # how to change the code if we were to account for decreasing stock prices
+
+class Hanoi
+
+  attr_reader :remaining_moves, :
+  def initialize(discs_num)
+    @remaining_moves = 7
+    @discs_num = @discs_num
+    pile1 = Array.new(3, [3,2,1])
+    pile2 = Array.new(3, [])
+    pile3 = Array.new(3, [])
+
+  
+
+    # #array.sort.reverse
+
+  end
+
+  def [](pos)
+    index = pos
+    @pile(pos)
+  end
+
+  def []=(pos,value)
+  index = pos
+  @pile[pos] = value
+  end
+
+  def move
+  input_pile = gets.chomp.to_i
+    puts "Please pick the pile number you want to move from"
+  input_pile = gets.chomp.to_i
+    puts 
+  input_pos 
+
+  end
+
+  def won?
+    return false @remaining_moves == 0
+
+
+
+
+
+  end 
+
+end 
+
